@@ -5,7 +5,7 @@ public class Assignment1Program1 {
 
   // Method to remove the first and last character of a string//
 
-  public static String removeFirstAndLastChar(String str) {
+  public static String removeFirstAndLastLetter(String str) {
         if (str == null || str.length() < 2) {
             return str;
         }
@@ -40,7 +40,7 @@ public class Assignment1Program1 {
     StringBuilder sb = new StringBuilder(five_cha_string);
       String reversedStringSB = sb.reverse().toString();
 
-    String trimmString = removeFirstAndLastChar(reversedStringSB);
+    String trimmString = removeFirstAndLastLetter(reversedStringSB);
 
     System.out.println(" ");
     System.out.print("Please enter a number in Fahrenheit: ");
